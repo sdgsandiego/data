@@ -39,6 +39,49 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
+      "path": "7-1-2/data.csv",
+      "name": "7-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Fuel Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bottled, tank, or LP gas",
+                "Coal or coke",
+                "Electricity",
+                "Fuel oil, kerosene, etc.",
+                "No fuel used",
+                "Other fuel",
+                "Solar energy",
+                "Utility gas",
+                "Wood"
+              ]
+            },
+            "title": "Fuel Type"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population with primary reliance on clean fuels and technology"
+    },
+    {
       "path": "15-4-2/data.csv",
       "name": "15-4-2",
       "profile": "tabular-data-resource",
@@ -3301,30 +3344,6 @@
         ]
       },
       "title": "Statistical capacity indicator for Sustainable Development Goal monitoring"
-    },
-    {
-      "path": "7-1-2/data.csv",
-      "name": "7-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of population with primary reliance on clean fuels and technology"
     },
     {
       "path": "1-5-3/data.csv",
