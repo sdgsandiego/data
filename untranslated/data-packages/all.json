@@ -68,6 +68,16 @@
             }
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "By Heating Fuel Type",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
