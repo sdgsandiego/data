@@ -9,9 +9,12 @@ data_notice_text: ''
 data_show_map: false
 data_start_values: []
 embedded_feature_footer: ''
-embedded_feature_html: ''
-embedded_feature_tab_title: ''
-embedded_feature_title: ''
+embedded_feature_html: >-
+  <iframe width="1123" height="825" title="Total Solar Megawatts (AC) by Zip
+  Code & General Community" src="https://sdgsandiego.github.io/SolarFinal/"
+  frameborder="0" allowFullScreen="true"></iframe>
+embedded_feature_tab_title: Map
+embedded_feature_title: ' Total Solar Megawatts (AC) by Zip Code & General Community'
 embedded_feature_url: ''
 expected_disaggregations: []
 graph_annotations: []
