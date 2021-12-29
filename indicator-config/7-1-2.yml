@@ -10,7 +10,7 @@ data_show_map: false
 data_start_values: []
 embedded_feature_footer: Data provided by California Distributed Generation Statistics
 embedded_feature_html: >-
-  <iframe width="1123" height="825"
+  <iframe width="825" height="825"
   src="https://sdgsandiego.github.io/Indicator_7-1-2/" frameborder="0"
   allowFullScreen="true"></iframe>
 embedded_feature_tab_title: Map
