@@ -9,13 +9,10 @@ data_notice_text: ''
 data_show_map: false
 data_start_values: []
 embedded_feature_footer: Data provided by California Distributed Generation Statistics
-embedded_feature_html: >
-  <iframe width="2246" height="1650" title="Total Solar Megawatts (AC) by Zip
-  Code & General Community" src="https://sdgsandiego.github.io/Indicator_7-1-2/"
-  frameborder="0" allowFullScreen="true"></iframe>
+embedded_feature_html: ''
 embedded_feature_tab_title: Map
 embedded_feature_title: Total Solar Megawatts (AC) by Zip Code & General Community
-embedded_feature_url: ''
+embedded_feature_url: 'https://sdgsandiego.github.io/Indicator_7-1-2/'
 expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
