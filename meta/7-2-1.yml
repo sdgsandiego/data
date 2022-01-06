@@ -69,7 +69,7 @@ SOURCE_TYPE: ''
 COLL_METHOD: ''
 FREQ_COLL: ''
 REL_CAL_POLICY: ''
-DATA_SOURCE: ''
+DATA_SOURCE: San Diego Gas & Electric
 COMPILING_ORG: ''
 INST_MANDATE: ''
 OTHER_METHOD: ''
@@ -84,7 +84,9 @@ QUALITY_ASSMNT: ''
 COVERAGE: ''
 COMPARABILITY: ''
 OTHER_DOC: ''
-national_data_update_url: ''
-national_data_update_url_text: ''
-national_metadata_update_url: ''
-national_metadata_update_url_text: ''
+national_data_update_url: >-
+  https://github.com/sdgsandiego/data/commit/7430c248e2e45840d87147791226747a3e53b6d1
+national_data_update_url_text: '2022-01-05: see changes on GitHub'
+national_metadata_update_url: >-
+  https://github.com/sdgsandiego/data/commit/40afe7411736848b9d168704cfa90f59220ec2f5
+national_metadata_update_url_text: '2022-01-05: see changes on GitHub'
