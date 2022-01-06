@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Energy Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biomass & Biowaste",
+                "Solar",
+                "Wind",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "By Energy Type",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

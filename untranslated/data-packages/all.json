@@ -86,6 +86,50 @@
       "title": "Proportion of population with primary reliance on clean fuels and technology"
     },
     {
+      "path": "7-2-1/data.csv",
+      "name": "7-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Energy Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biomass & Biowaste",
+                "Solar",
+                "Wind",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "By Energy Type",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-2-1-title"
+    },
+    {
       "path": "15-4-2/data.csv",
       "name": "15-4-2",
       "profile": "tabular-data-resource",
@@ -2768,28 +2812,6 @@
         ]
       },
       "title": "global_indicators.13-a-1-title"
-    },
-    {
-      "path": "7-2-1/data.csv",
-      "name": "7-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-2-1-title"
     },
     {
       "path": "10-5-1/data.csv",
