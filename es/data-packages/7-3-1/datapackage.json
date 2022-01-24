@@ -12,8 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Residential, Non-Residential",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Residential",
+                "Non-Residential",
+                ""
+              ]
+            },
+            "title": "Residential, Non-Residential"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions of kWh (GWh)",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",
