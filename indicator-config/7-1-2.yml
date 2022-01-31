@@ -9,7 +9,7 @@ data_notice_text: ''
 data_show_map: false
 data_start_values: []
 embedded_feature_footer: Data provided by California Distributed Generation Statistics
-embedded_feature_html: '<iframe height="100%"  src="https://sdgsandiego.github.io/Indicator_7-1-2/" marginheight="0" marginwidth="0" frameborder="0" allowFullScreen="true"></iframe>'
+embedded_feature_html: '<iframe width="825" height="100%"  src="https://sdgsandiego.github.io/Indicator_7-1-2/" marginheight="0" marginwidth="0" frameborder="0" allowFullScreen="true"></iframe>'
 embedded_feature_tab_title: Map
 embedded_feature_title: six
 embedded_feature_url: ''
