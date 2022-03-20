@@ -74,7 +74,7 @@ STAT_CONC_DEF: >-
 UNIT_MEASURE: ''
 CLASS_SYSTEM: ''
 SRC_TYPE_COLL_METHOD: ''
-SOURCE_TYPE: ''
+SOURCE_TYPE: 'United States Census Bureau '
 COLL_METHOD: ''
 FREQ_COLL: ''
 REL_CAL_POLICY: ''
@@ -93,7 +93,9 @@ QUALITY_ASSMNT: ''
 COVERAGE: ''
 COMPARABILITY: ''
 OTHER_DOC: ''
-national_data_update_url: ''
-national_data_update_url_text: ''
-national_metadata_update_url: ''
-national_metadata_update_url_text: ''
+national_data_update_url: >-
+  https://github.com/sdgsandiego/data/commit/e57da43ef0196dc1222857112c04f4855c786383
+national_data_update_url_text: '2021-12-22: see changes on GitHub'
+national_metadata_update_url: >-
+  https://github.com/sdgsandiego/data/commit/e760b0ff611c04b65d3405f6f10c858fb87140cf
+national_metadata_update_url_text: '2021-12-22: see changes on GitHub'
